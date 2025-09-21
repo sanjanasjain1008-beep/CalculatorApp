@@ -1,5 +1,4 @@
 # calculator.py
-
 import sys
 
 def add(a, b):
@@ -46,3 +45,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     print(f"Result: {result}")
+    print("Update")
