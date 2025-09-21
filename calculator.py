@@ -46,3 +46,4 @@ if __name__ == "__main__":
 
     print(f"Result: {result}")
     print("Update")
+    print("second update")
