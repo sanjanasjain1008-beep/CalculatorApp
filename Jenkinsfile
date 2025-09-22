@@ -11,6 +11,7 @@ pipeline {
                 script {
                     // Run Python script with Jenkins parameters
                     sh "python3 calculator.py 5 6 add"
+                    
                 }
             }
         }            
