@@ -13,9 +13,7 @@ pipeline {
                     sh "python3 calculator.py 5 6 add"
                 }
             }
-        }
-
-            
+        }            
         }
     }
 }
