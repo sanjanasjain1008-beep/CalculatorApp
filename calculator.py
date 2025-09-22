@@ -30,7 +30,6 @@ if __name__ == "__main__":
         sys.exit(1)
 
     operation = sys.argv[3].lower()
-
     # Perform operation
     if operation == "add":
         result = add(a, b)
