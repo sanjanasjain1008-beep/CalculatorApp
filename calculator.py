@@ -43,4 +43,4 @@ if __name__ == "__main__":
         print("Invalid operation! Choose add, subtract, multiply, divide.")
         sys.exit(1)
 
-    print(f"Result of op is : {result}")
+    print(f"Result: {result}")
