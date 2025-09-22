@@ -3,18 +3,15 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Get some code from a GitHub repository
+                // Get code from GitHub repository
                 git branch: 'main', url: 'https://github.com/mayurwaghmode/CalculatorApp.git'
             }
+        }
         stage('Run Calculator') {
             steps {
-                script {
-                    // Run Python script with Jenkins parameters
-                    sh "python3 calculator.py 5 6 add"
-                    
-                }
+                // Run Python script
+                sh "python3 calculator.py 5 6 add"
             }
-        }            
         }
     }
 }
